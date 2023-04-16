@@ -24,11 +24,11 @@ const SignIn = () => {
   return (
     <div className='flex justify-center'>
         
-      <div className='mt-[7vw] lg:drop-shadow-2xl xl:h-[60vh] w-[100%] lg:w-[60vw] bg-[white] rounded-[18px] flex content-clip p-[10px]'>
+      <div className='mt-[5vw] lg:drop-shadow-2xl xl:h-[60vh] w-[100%] lg:w-[60vw] bg-[white] rounded-[18px] flex content-clip p-[10px]'>
 
         <div className='hidden xl:flex w-[30%] p-[40px] bg-primary flex-y justify-center pt-[5%] rounded-[10px] relative '>
         <div>
-          <p className='text-white font-bold text-[32px] leading-[40px]'>Start your journey with us.</p>
+          <p className='text-white font-bold text-[28px] leading-[40px]'>Start your journey with us.</p>
           <p className='text-[#eeeeee] mt-[10px] font-regular text-[16px]'>Discover our set of high quality tech products</p>
         </div>
         <div className='absolute bottom-[5%] text-center'>
@@ -39,7 +39,7 @@ const SignIn = () => {
         <div className='px-[5%] w-[100%] xl:w-[70%] flex items-center justify-center'>
 
           <div className='w-[100%] xl:w-[60%]'>
-          <p className='font-bold text-[32px] mb-[10%] text-center'>Sign in</p>
+          <p className='font-bold text-[28px] mb-[5%] text-center'>Sign in</p>
             <form>
               <p>Username/Email</p>
               <input onChange={handleChange} placeholder="Username or Email" className="bg-[#ededed] rounded-[4px] h-[40px] text-[14px] my-[10px] w-[100%] focus:outline-none px-[15px]" name="email" type="email" />

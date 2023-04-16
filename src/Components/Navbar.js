@@ -19,14 +19,14 @@ const Navbar = () => {
             </div>
 
             <div className='flex gap-x-[30px] items-center absolute left-1/2 translate-x-[-50%]'>
-                <p onMouseOver={() => {setHover(true)}} onMouseOut={() => {setHover(false)}} className='py-[35px] text-[18px] decoration-[2px] hover:underline-offset-[5px] hover:underline font-medium'>Categories</p>
-                <p className='text-[17px] decoration-[2px] hover:underline-offset-[5px] hover:underline font-medium'>Support</p>
-                <p className='text-[17px] decoration-[2px] hover:underline-offset-[5px] hover:underline font-medium'>Community</p>
+                <p onMouseOver={() => {setHover(true)}} onMouseOut={() => {setHover(false)}} className='cursor-pointer py-[35px] text-[18px] decoration-[2px] hover:underline-offset-[5px] hover:underline font-medium'>Categories</p>
+                <p className='cursor-pointer text-[17px] decoration-[2px] hover:underline-offset-[5px] hover:underline font-medium'>Support</p>
+                <p className='cursor-pointer text-[17px] decoration-[2px] hover:underline-offset-[5px] hover:underline font-medium'>Community</p>
             </div>
 
             <div className='flex items-center gap-x-[20px]'>
                 <a href="/signin"><img src="./assets/icons/user.png" width="19px" /></a>
-                <a><img src="./assets/icons/like.png" width="19px" /></a>
+                <a href="#"><img src="./assets/icons/like.png" width="19px" /></a>
                 <button className='flex items-center gap-x-[10px] bg-primary h-[43px] w-[152px] justify-center rounded-[6px]'>
                     <img src="./assets/icons/cart.png" width="22px" />
                     <p className='text-[18px] text-[white] font-medium'>Basket</p>
@@ -40,29 +40,29 @@ const Navbar = () => {
                     
                     <div className='w-[33.33%]'>
                         <p className='mt-[25px] mb-[20px] text-[16px] decoration-[2px]  font-medium'>PC</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Laptops</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Desktops & Components</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Monitors</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Mice</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Mats</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Keyboards</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Headsets</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Laptops</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Desktops & Components</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Monitors</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Mice</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Mats</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Keyboards</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Headsets</p>
                     </div>
                     <div className='w-[33.33%]'>
                         <p className='mt-[25px] mb-[20px] text-[16px] decoration-[2px]  font-medium'>Consoles</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Xbox</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>PlayStation</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Meta Quest</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Accessories</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Xbox</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>PlayStation</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Meta Quest</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Accessories</p>
                     </div>
                     <div className='w-[33.33%]'>
                         <p className='mt-[25px] mb-[20px] text-[16px] decoration-[2px]  font-medium'>Mobile</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Handhelds</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Controllers</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Headphones</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Earbuds</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Cases</p>
-                        <p className='mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Accessories</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Handhelds</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Controllers</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Headphones</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Earbuds</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Cases</p>
+                        <p className='cursor-pointer mt-[25px] mb-[20px] text-[15px] text-[#808080] decoration-[2px] hover:text-primary font-regular'>Accessories</p>
                     </div>
 
                 </div> 
